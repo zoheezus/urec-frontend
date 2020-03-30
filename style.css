@@ -1,0 +1,30 @@
+.cls-1, .cls-3 {
+    fill: #fff79a;
+}
+
+.cls-1 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+}
+
+.cls-4 {
+    fill: green;
+}
+
+.cls-5 {
+    fill: green;
+}
+
+.cls-2 {
+    fill: red;
+}
+
+.occupied {
+    fill: green;
+}
+
+.unoccupied {
+    stroke: #373737;
+    stroke-width: .25px;
+}

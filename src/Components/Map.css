@@ -1,0 +1,40 @@
+.cls-1 {
+  fill: #fff79a;
+}
+
+.cls-1, .cls-6 {
+  stroke: #202020;
+}
+
+.cls-1, .cls-4, .cls-6 {
+  stroke-miterlimit: 10;
+  stroke-width: 0.5px;
+}
+
+.cls-2, .cls-4, .cls-6 {
+  fill: none;
+}
+
+.cls-3 {
+  fill: #202020;
+}
+
+.cls-4 {
+  stroke: #424242;
+}
+
+.cls-5 {
+  fill: #373737;
+}
+
+path.occupied {
+  stroke: green !important;
+  fill: none;
+  stroke-width: .25px;
+}
+
+path.unoccupied {
+  stroke: #373737 !important;
+  fill: none;
+  stroke-width: .25px;
+}

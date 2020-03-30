@@ -1,0 +1,79 @@
+.app {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #282c34;
+}
+
+/* Float four columns side by side */
+.columnL {
+  background-color: #69779b;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.315);
+  border-radius: 25px;
+  margin: 50px 20px 50px auto;
+  display: flex;
+  font-size: 15px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  width: 25%;
+  height: 25%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.columnR {
+  background-color: #69779b;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.315);
+  border-radius: 25px;
+  margin: 50px auto 50px 20px;
+  display: flex;
+  font-size: 15px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  width: 25%;
+  height: 25%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  background-color: #0e4f64;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.315);
+  border-radius: 25px;
+  /* margin: 30px; */
+  display: flex;
+  /* flex-direction: column; */
+  font-size: 20px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+}
