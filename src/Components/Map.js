@@ -7,14 +7,14 @@ export default class Map extends Component {
     function returnEquipment() {
       setInterval(() => {
         return <Equipment />;
-      }, 30);
+      }, 3000);
     }
     return (
       <div>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           viewBox='0 0 275.3 331.33'
-          width='85%'
+          width='99%'
         >
           <g fill='#fff79a'>
             <path

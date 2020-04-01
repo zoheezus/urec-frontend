@@ -28,13 +28,13 @@
 }
 
 path.occupied {
-  stroke: green !important;
+  stroke: red !important;
   fill: none;
   stroke-width: .25px;
 }
 
 path.unoccupied {
-  stroke: #373737 !important;
+  stroke: green !important;
   fill: none;
   stroke-width: .25px;
 }
