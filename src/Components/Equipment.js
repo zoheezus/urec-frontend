@@ -10,21 +10,23 @@ class Equipment extends Component {
 
   async componentDidMount() {
     axios.get("http://18.220.209.203/view.php/").then(res => {
+      let i = 1;
       this.interval = setInterval(() => {
         this.setState({ equipment: res.data["data"], loading: false });
+        console.log("interval " + i++);
       }, 3000);
     });
   }
 
   async componentWillUnmount() {
-    clearInterval(this.interval)
+    clearInterval(this.interval);
   }
 
   render() {
     function Equipment(name, status) {
       let convertedName = name.replace(/-/g, "_");
-      console.log("Name: ", name, "CName: ", convertedName);
-      console.log(status);
+      // console.log("Name: ", name, "CName: ", convertedName);
+      // console.log(status);
       // const pathData = [
       //   'M268.24,167.38l4.07-1.73a.51.51,0,0,1,.66.26l3.47,8.19a.34.34,0,0,1-.18.44L272,176.33a.49.49,0,0,1-.65-.26L268,168A.5.5,0,0,1,268.24,167.38Zm2.69,9.69.09.22a.26.26,0,0,0,.33.13l6.1-2.59a.18.18,0,0,0,.09-.22l-.13-.29a.25.25,0,0,0-.32-.13l-6,2.56A.25.25,0,0,0,270.93,177.07Zm1.06-1.88.23.53a.49.49,0,0,0,.65.26l2.17-.92a.5.5,0,0,0,.26-.65l-.22-.53a.51.51,0,0,0-.66-.27l-2.16.92A.5.5,0,0,0,272,175.19Zm4.58-.77.75-.32-3.61-8.5a.5.5,0,0,0-.65-.27l-.29.12Zm-5.74,2.43.75-.32-3.8-9-.29.12a.51.51,0,0,0-.26.66Z'
       // ];
@@ -92,7 +94,7 @@ class Equipment extends Component {
 
       const updatedStatus = status;
 
-      return <path d={paths[convertedName]} class={updatedStatus} id={name} />;
+      return <path d={paths[convertedName]} className={updatedStatus} id={name} />;
     }
 
     function handleOccupancy(vacancy, name) {
