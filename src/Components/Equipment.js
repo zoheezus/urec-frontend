@@ -10,7 +10,9 @@ class Equipment extends Component {
 
   async componentDidMount() {
     axios.get("http://18.220.209.203/view.php/").then(res => {
-      this.setState({ equipment: res.data["data"], loading: false });
+      this.interval = setInterval(() => {
+        this.setState({ equipment: res.data["data"], loading: false });
+      }, 3000);
     });
   }
 

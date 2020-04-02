@@ -4,11 +4,16 @@ import './Map.css';
 
 export default class Map extends Component {
   render() {
-    function returnEquipment() {
-      setInterval(() => {
-        return <Equipment />;
-      }, 3000);
-    }
+    // function mockData() {
+    //   setInterval(() => {
+    //     console.log('mocking data...')
+    //   }, 3000)
+    // }
+    // function returnEquipment() {
+    //   setInterval(() => {
+    //     return <Equipment />;
+    //   }, 3000);
+    // }
     return (
       <div>
         <svg
