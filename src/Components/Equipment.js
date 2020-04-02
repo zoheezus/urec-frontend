@@ -16,6 +16,10 @@ class Equipment extends Component {
     });
   }
 
+  async componentWillUnmount() {
+    clearInterval(this.interval)
+  }
+
   render() {
     function Equipment(name, status) {
       let convertedName = name.replace(/-/g, "_");
