@@ -1,17 +1,27 @@
+.app {
+  padding-left: 16px;
+  min-width: 100px;
+}
+
 .cls-1 {
   fill: #fff79a;
 }
 
-.cls-1, .cls-6 {
+.cls-1,
+.cls-6 {
   stroke: #202020;
 }
 
-.cls-1, .cls-4, .cls-6 {
+.cls-1,
+.cls-4,
+.cls-6 {
   stroke-miterlimit: 10;
   stroke-width: 0.5px;
 }
 
-.cls-2, .cls-4, .cls-6 {
+.cls-2,
+.cls-4,
+.cls-6 {
   fill: none;
 }
 
@@ -30,11 +40,11 @@
 path.occupied {
   stroke: red !important;
   fill: none;
-  stroke-width: .25px;
+  stroke-width: 0.25px;
 }
 
 path.unoccupied {
   stroke: green !important;
   fill: none;
-  stroke-width: .25px;
+  stroke-width: 0.25px;
 }

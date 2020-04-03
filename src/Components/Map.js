@@ -4,22 +4,13 @@ import "./Map.css";
 
 export default class Map extends Component {
   render() {
-    // function mockData() {
-    //   setInterval(() => {
-    //     console.log('mocking data...')
-    //   }, 3000)
-    // }
-    // function returnEquipment() {
-    //   setInterval(() => {
-    //     return <Equipment />;
-    //   }, 3000);
-    // }
     return (
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 275.3 331.33"
-          width="99%"
+          width="1920wx"
+          height="720px"
         >
           <g fill="#fff79a" transform="translate(-8.5 -4)">
             <path

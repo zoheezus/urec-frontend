@@ -12,11 +12,3 @@ const App = () => (
 );
 
 export default App;
-
-// map
-// break down landing page based on body part (ie shoulders, biceps, legs)
-// landing page breaks up into muscle type or equipment
-// 1st get squat racks displayed on map
-
-// manipulating svg files
-// render a letter and color (ie `G` and green)
