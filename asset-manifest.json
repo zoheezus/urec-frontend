@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/urec-frontend/static/css/main.bcbfbd77.chunk.css",
+    "main.js": "/urec-frontend/static/js/main.25f467d9.chunk.js",
+    "runtime-main.js": "/urec-frontend/static/js/runtime-main.79d628b6.js",
+    "static/js/2.997129aa.chunk.js": "/urec-frontend/static/js/2.997129aa.chunk.js",
+    "index.html": "/urec-frontend/index.html",
+    "precache-manifest.87470232295c4c5ad9361153f6befc8b.js": "/urec-frontend/precache-manifest.87470232295c4c5ad9361153f6befc8b.js",
+    "service-worker.js": "/urec-frontend/service-worker.js",
+    "static/js/2.997129aa.chunk.js.LICENSE.txt": "/urec-frontend/static/js/2.997129aa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79d628b6.js",
+    "static/js/2.997129aa.chunk.js",
+    "static/css/main.bcbfbd77.chunk.css",
+    "static/js/main.25f467d9.chunk.js"
+  ]
+}
