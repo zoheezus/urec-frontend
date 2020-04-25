@@ -13,7 +13,7 @@ class Equipment extends Component {
     this.interval = setInterval(() => {
       axios.get("http://18.220.209.203/view.php/").then(res => {
         this.setState({ equipment: res.data["data"], loading: false });
-        console.log("interval " + i++);
+        // console.log("interval " + i++);
       });
     }, 1000);
   }
@@ -96,7 +96,7 @@ class Equipment extends Component {
     function handleOccupancy(vacancy, name) {
       if (vacancy == 1) {
         let status = "occupied";
-        console.log("Vacancy: ", vacancy, " Name: ", name);
+        // console.log("Vacancy: ", vacancy, " Name: ", name);
         return Equipment(name, status);
       } else {
         let status = "unoccupied";
