@@ -5,7 +5,9 @@ import Map from './Components/Map';
 
 const App = () => (
   <Router>
+    <Fragment>
       <Route exact path='/' component={Map} />
+    </Fragment>
   </Router>
 );
 
