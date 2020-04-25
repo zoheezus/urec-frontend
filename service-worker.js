@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/urec-frontend/precache-manifest.87470232295c4c5ad9361153f6befc8b.js"
+  "/urec-frontend/precache-manifest.54c033c3e468ae8c448a0f55c0671574.js"
 );
 
 self.addEventListener('message', (event) => {
